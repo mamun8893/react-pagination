@@ -1,0 +1,22 @@
+.pagination-warp ul {
+  display: flex;
+  justify-content: center;
+}
+.pagination-warp ul li {
+  list-style-type: none;
+  margin-right: 10px;
+}
+.pagination-warp ul .selected a {
+  background-color: green;
+  color: #fff;
+}
+.pagination-warp ul .selected a:hover {
+  color: #fff;
+}
+.pagination-warp ul li a {
+  padding: 8px 14px;
+  background-color: aliceblue;
+  cursor: pointer;
+  border-radius: 6px;
+  text-decoration: none;
+}
